@@ -63,7 +63,6 @@ print("df['Column1'].apply:", df["Column1"].apply(lambda x : x + 2))
 df["Column5"] = df["Column4"] / df["Column1"]
 print("df['Column5']:", df["Column5"])
 
-# todo
 grouped_df = df.groupby("Column4")
 print("type(grouped_df):", type(grouped_df))
 print("df.describe:\n", df.describe())
